@@ -1,10 +1,10 @@
-# 黄蕊逻辑排序实验：研究者测试分享包
+# 逻辑排序实验：研究者测试分享包
 
 整理日期：2026-10-20。网页 participant-01；题库 logic-bank-01。
 
 本包仅包含当前网页、定稿材料及档案引用的三个历史核查文件。未包含浏览器缓存、运行环境、原论文 PDF 或任何参与者作答记录。
 
-## 黄蕊先看哪里
+## 先看哪里
 
 1. 本地测试：先把整个 ZIP 解压到普通文件夹，再用电脑浏览器打开 `researcher.html`。不要在压缩软件内部直接打开 HTML。
 2. 在线测试：仓库开启 GitHub Pages 后，打开 `网站地址/researcher.html`，分别点击检查代劳版与检查辅助版。
@@ -46,13 +46,13 @@
 
 ## 两种分享方式
 
-### A. 只给黄蕊：Private 仓库＋邀请协作者
+### A. Private 仓库＋邀请协作者
 
 新建 Private 仓库并上传本包，在仓库 Settings → Collaborators（界面名称可能略有差异）邀请她的 GitHub 账号。她接受邀请后，在 Code → Download ZIP 下载、完整解压，再打开 researcher.html。
 
 这条路径不需要 GitHub Pages。GitHub 的代码页面不会把 HTML 直接运行成实验网页。不要把仓库 README 链接当成可作答的网址。
 
-### B. 让她点网址测试：Public 仓库＋GitHub Pages
+### B. 网址测试：Public 仓库＋GitHub Pages
 
 GitHub Free 可对 Public 仓库开启 Pages。创建仓库（例如 huangrui-logic-study），上传后打开 Settings → Pages，在 Build and deployment 中选择：
 
