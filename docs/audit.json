@@ -1,0 +1,508 @@
+{
+  "bankVersion": "logic-bank-01",
+  "scope": "structural and content verification only; not empirical difficulty equivalence",
+  "formalTasksStructurallyMatched": true,
+  "rows": [
+    {
+      "id": "practice-01",
+      "objects": 4,
+      "clues": 3,
+      "permutations": 24,
+      "solutions": 1,
+      "answer": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "template": "practice",
+      "constraintSubsetSolutionCounts": {
+        "1": [
+          12,
+          12,
+          12
+        ],
+        "2": [
+          4,
+          4,
+          6
+        ],
+        "3": [
+          1
+        ]
+      },
+      "solutionsWhenClueRemoved": [
+        4,
+        6,
+        4
+      ],
+      "clueCharacterCounts": [
+        10,
+        10,
+        10
+      ],
+      "provenance": "自编四对象操作练习，不计正式指标。"
+    },
+    {
+      "id": "train-01",
+      "objects": 6,
+      "clues": 5,
+      "permutations": 720,
+      "solutions": 1,
+      "answer": [
+        "A",
+        "D",
+        "B",
+        "F",
+        "E",
+        "C"
+      ],
+      "template": "start",
+      "constraintSubsetSolutionCounts": {
+        "1": [
+          120,
+          360,
+          360,
+          360,
+          360
+        ],
+        "2": [
+          24,
+          60,
+          60,
+          60,
+          120,
+          120,
+          180,
+          180,
+          180,
+          180
+        ],
+        "3": [
+          12,
+          12,
+          12,
+          20,
+          20,
+          30,
+          30,
+          60,
+          60,
+          90
+        ],
+        "4": [
+          4,
+          4,
+          5,
+          6,
+          15
+        ],
+        "5": [
+          1
+        ]
+      },
+      "solutionsWhenClueRemoved": [
+        6,
+        5,
+        4,
+        15,
+        4
+      ],
+      "clueCharacterCounts": [
+        10,
+        10,
+        10,
+        12,
+        10
+      ],
+      "provenance": "Wu et al. (2026), Figure 2a 中文改写；先后关系统一正向措辞，交互为改编，无隐藏视觉标记。"
+    },
+    {
+      "id": "train-02",
+      "objects": 6,
+      "clues": 5,
+      "permutations": 720,
+      "solutions": 1,
+      "answer": [
+        "F",
+        "C",
+        "E",
+        "A",
+        "D",
+        "B"
+      ],
+      "template": "end",
+      "constraintSubsetSolutionCounts": {
+        "1": [
+          120,
+          360,
+          360,
+          360,
+          360
+        ],
+        "2": [
+          24,
+          60,
+          60,
+          60,
+          120,
+          120,
+          180,
+          180,
+          180,
+          180
+        ],
+        "3": [
+          12,
+          12,
+          12,
+          20,
+          20,
+          30,
+          30,
+          60,
+          60,
+          90
+        ],
+        "4": [
+          4,
+          4,
+          5,
+          6,
+          15
+        ],
+        "5": [
+          1
+        ]
+      },
+      "solutionsWhenClueRemoved": [
+        4,
+        15,
+        6,
+        4,
+        5
+      ],
+      "clueCharacterCounts": [
+        10,
+        12,
+        10,
+        10,
+        10
+      ],
+      "provenance": "自编结构匹配题：基于 Wu et al. (2026) Figure 2a 逻辑结构改编，未使用隐藏视觉标记；未经经验等难度检验。"
+    },
+    {
+      "id": "train-03",
+      "objects": 6,
+      "clues": 5,
+      "permutations": 720,
+      "solutions": 1,
+      "answer": [
+        "E",
+        "B",
+        "F",
+        "D",
+        "C",
+        "A"
+      ],
+      "template": "start",
+      "constraintSubsetSolutionCounts": {
+        "1": [
+          120,
+          360,
+          360,
+          360,
+          360
+        ],
+        "2": [
+          24,
+          60,
+          60,
+          60,
+          120,
+          120,
+          180,
+          180,
+          180,
+          180
+        ],
+        "3": [
+          12,
+          12,
+          12,
+          20,
+          20,
+          30,
+          30,
+          60,
+          60,
+          90
+        ],
+        "4": [
+          4,
+          4,
+          5,
+          6,
+          15
+        ],
+        "5": [
+          1
+        ]
+      },
+      "solutionsWhenClueRemoved": [
+        4,
+        4,
+        15,
+        5,
+        6
+      ],
+      "clueCharacterCounts": [
+        10,
+        10,
+        12,
+        10,
+        10
+      ],
+      "provenance": "自编结构匹配题：基于 Wu et al. (2026) Figure 2a 逻辑结构改编，未使用隐藏视觉标记；未经经验等难度检验。"
+    },
+    {
+      "id": "train-04",
+      "objects": 6,
+      "clues": 5,
+      "permutations": 720,
+      "solutions": 1,
+      "answer": [
+        "C",
+        "A",
+        "D",
+        "B",
+        "F",
+        "E"
+      ],
+      "template": "end",
+      "constraintSubsetSolutionCounts": {
+        "1": [
+          120,
+          360,
+          360,
+          360,
+          360
+        ],
+        "2": [
+          24,
+          60,
+          60,
+          60,
+          120,
+          120,
+          180,
+          180,
+          180,
+          180
+        ],
+        "3": [
+          12,
+          12,
+          12,
+          20,
+          20,
+          30,
+          30,
+          60,
+          60,
+          90
+        ],
+        "4": [
+          4,
+          4,
+          5,
+          6,
+          15
+        ],
+        "5": [
+          1
+        ]
+      },
+      "solutionsWhenClueRemoved": [
+        5,
+        6,
+        4,
+        15,
+        4
+      ],
+      "clueCharacterCounts": [
+        10,
+        10,
+        10,
+        12,
+        10
+      ],
+      "provenance": "自编结构匹配题：基于 Wu et al. (2026) Figure 2a 逻辑结构改编，未使用隐藏视觉标记；未经经验等难度检验。"
+    },
+    {
+      "id": "novel-01",
+      "objects": 6,
+      "clues": 5,
+      "permutations": 720,
+      "solutions": 1,
+      "answer": [
+        "B",
+        "F",
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "template": "start",
+      "constraintSubsetSolutionCounts": {
+        "1": [
+          120,
+          360,
+          360,
+          360,
+          360
+        ],
+        "2": [
+          24,
+          60,
+          60,
+          60,
+          120,
+          120,
+          180,
+          180,
+          180,
+          180
+        ],
+        "3": [
+          12,
+          12,
+          12,
+          20,
+          20,
+          30,
+          30,
+          60,
+          60,
+          90
+        ],
+        "4": [
+          4,
+          4,
+          5,
+          6,
+          15
+        ],
+        "5": [
+          1
+        ]
+      },
+      "solutionsWhenClueRemoved": [
+        15,
+        4,
+        5,
+        4,
+        6
+      ],
+      "clueCharacterCounts": [
+        12,
+        10,
+        10,
+        10,
+        10
+      ],
+      "provenance": "自编结构匹配题：基于 Wu et al. (2026) Figure 2a 逻辑结构改编，未使用隐藏视觉标记；未经经验等难度检验。"
+    },
+    {
+      "id": "novel-02",
+      "objects": 6,
+      "clues": 5,
+      "permutations": 720,
+      "solutions": 1,
+      "answer": [
+        "D",
+        "E",
+        "C",
+        "F",
+        "B",
+        "A"
+      ],
+      "template": "end",
+      "constraintSubsetSolutionCounts": {
+        "1": [
+          120,
+          360,
+          360,
+          360,
+          360
+        ],
+        "2": [
+          24,
+          60,
+          60,
+          60,
+          120,
+          120,
+          180,
+          180,
+          180,
+          180
+        ],
+        "3": [
+          12,
+          12,
+          12,
+          20,
+          20,
+          30,
+          30,
+          60,
+          60,
+          90
+        ],
+        "4": [
+          4,
+          4,
+          5,
+          6,
+          15
+        ],
+        "5": [
+          1
+        ]
+      },
+      "solutionsWhenClueRemoved": [
+        6,
+        5,
+        15,
+        4,
+        4
+      ],
+      "clueCharacterCounts": [
+        10,
+        10,
+        12,
+        10,
+        10
+      ],
+      "provenance": "自编结构匹配题：基于 Wu et al. (2026) Figure 2a 逻辑结构改编，未使用隐藏视觉标记；未经经验等难度检验。"
+    }
+  ],
+  "samePositionOverlap": {
+    "train-01 / train-02": 0,
+    "train-01 / train-03": 0,
+    "train-01 / train-04": 0,
+    "train-02 / train-03": 0,
+    "train-02 / train-04": 0,
+    "train-03 / train-04": 0,
+    "novel-01 / train-01": 0,
+    "novel-01 / train-02": 1,
+    "novel-01 / train-03": 0,
+    "novel-01 / train-04": 1,
+    "novel-01 / novel-02": 0,
+    "novel-02 / train-01": 1,
+    "novel-02 / train-02": 0,
+    "novel-02 / train-03": 1,
+    "novel-02 / train-04": 0
+  }
+}
