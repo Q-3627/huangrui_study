@@ -1,0 +1,26 @@
+.clue-choice{width:100%;text-align:left;color:var(--ink);background:transparent;border:1px solid transparent;border-radius:8px;padding:7px 10px;font-size:15px;min-height:44px}
+.clue-choice:hover{background:var(--light)}
+.clue-choice[aria-pressed="true"]{background:var(--light);border-color:#7e9c81;color:var(--green)}
+.clue-choice[aria-pressed="true"]::after{content:"已选择";font-size:11px;margin-left:12px;color:var(--green);white-space:nowrap}
+.selected-clue{border-left:3px solid #9caf96;background:#edf2e8;border-radius:0 6px 6px 0;padding:10px 14px;font-size:14px;margin:18px 0 12px}
+.ask-options{display:flex;flex-direction:column;gap:8px;margin:12px 0 20px}
+.ask-options button{text-align:left;font-size:14px;padding:9px 12px;border-color:#c8d6c3;background:#fffef9}
+.dialogue-log{max-height:430px;overflow-y:auto;scrollbar-width:thin;overscroll-behavior:contain}
+.chat-pair{border-top:1px solid var(--line);padding:18px 0 4px}
+.chat-user{background:#e6eee2;border-radius:10px 10px 2px 10px;padding:12px 14px;margin-left:24px;font-size:14px}
+.chat-user p,.chat-ai p{margin:4px 0}
+.chat-user small{font-size:11px;color:var(--muted)}
+.chat-ai{padding:12px 4px;font-size:14px}
+.chat-ai p{line-height:1.9}
+@media(max-width:760px){.clue-choice{font-size:14px}.dialogue-log{max-height:360px}.chat-user{margin-left:12px}}
+
+.thinking{display:flex;align-items:center;gap:10px;padding:18px 0;color:var(--muted);font-size:14px;min-height:52px}
+.thinking-dots{letter-spacing:3px;color:var(--green);animation:reply-pulse 1s ease-in-out infinite alternate}
+.ask-options button:disabled{opacity:.5;cursor:wait}
+@keyframes reply-pulse{from{opacity:.35}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.thinking-dots{animation:none}}
+
+.board{grid-template-columns:repeat(var(--slots,6),minmax(0,1fr))}
+.consent{display:flex;align-items:flex-start;gap:10px;margin:25px 0 12px;font-size:15px;cursor:pointer}.consent input{width:19px;height:19px;margin-top:5px;flex-shrink:0;accent-color:var(--green)}
+.intro-list{padding-left:24px}.intro-list li{margin:10px 0}.debrief{border-top:1px solid var(--line);margin-top:30px;padding-top:18px;font-size:14px}.debrief summary{cursor:pointer;color:var(--green);min-height:40px}.welcome{max-width:780px}
+.research-links{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}.research-links a{display:inline-block;border:1px solid var(--green);padding:8px 16px;border-radius:8px;text-decoration:none}.research-warning{border-left:3px solid var(--amber);padding:12px 18px;background:#fff2df}

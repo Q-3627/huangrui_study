@@ -1,0 +1,93 @@
+{
+  "packageDate": "2026-10-20",
+  "webVersion": "participant-01",
+  "bankVersion": "logic-bank-01",
+  "published": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 66,
+      "sha256": "835a8777923968703e626acff68549aee9e68a12ee2972b4c2dd4760cee0c746"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app.js",
+      "bytes": 17141,
+      "sha256": "89cdf2d0ffb2b72ed550c5468a63f72e6036b0d0a03d9049288e554731f9dbdf"
+    },
+    {
+      "path": "core.js",
+      "bytes": 5273,
+      "sha256": "3413623dee56e2aa51d65cad948d4b554d669daf7d3765532edf76ef795dab08"
+    },
+    {
+      "path": "dialogue.css",
+      "bytes": 2549,
+      "sha256": "5945a0d9ed34e0353581373ff92d20666f52b6e354b63dee2e4ce8102bdbcb50"
+    },
+    {
+      "path": "docs/audit.json",
+      "bytes": 8706,
+      "sha256": "8513d261cafbb897c6f0a4d2786b424c5aaab69085fc9be9a67689d9b4dcd9c4"
+    },
+    {
+      "path": "docs/history/decision-tasks.md",
+      "bytes": 7715,
+      "sha256": "d36732d0da6f2e6d4cdbacff35c5dbb46c9ea99fcbeec873457b1e8778fda58f"
+    },
+    {
+      "path": "docs/history/initial-audit.md",
+      "bytes": 4997,
+      "sha256": "b0e2a413f4abb749e69a1f3d68e33f1ff513c5d19136245e2ee140dc1d1dd180"
+    },
+    {
+      "path": "docs/history/task-screening.md",
+      "bytes": 6246,
+      "sha256": "6a34d7ab55745ba6783e0787da31d0b0e5c68ad5933863c7f6c2db10b5c63bef"
+    },
+    {
+      "path": "docs/materials.md",
+      "bytes": 14766,
+      "sha256": "0d3f494b98a44550b072ff0d84cbccce89e23dfda4710ae3d72679d6c4809302"
+    },
+    {
+      "path": "docs/protocol.md",
+      "bytes": 7609,
+      "sha256": "436cc518a3cc01f1b341af28a346d9a4dd6ed973f76d531b151bf0394d671f13"
+    },
+    {
+      "path": "docs/rationale.html",
+      "bytes": 29874,
+      "sha256": "dc589428e9d6c13f768fea617dfd2c24c4324ee820d729bb241070a39eff5349"
+    },
+    {
+      "path": "docs/rationale.md",
+      "bytes": 24057,
+      "sha256": "d367db56321c292de7b7ad49926dc2aa3b6c354d2cca8c7cb0e80d4de9a51e7d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 586,
+      "sha256": "d6ac3a67869e54d97f1dadc7ad11cf476d3e14434f3d8377fbfbb156b0cec364"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5256,
+      "sha256": "8c767f7c6487cc8a83f5ec93b107afe3db2015484084aef92122093f17b1b511"
+    },
+    {
+      "path": "researcher.html",
+      "bytes": 2643,
+      "sha256": "46b41ed882979cf1ff1cce790ed61666f48f5c2c9f0602d1778e6bfefc23a54a"
+    },
+    {
+      "path": "style.css",
+      "bytes": 4998,
+      "sha256": "011ebee49d41698366c44ad8301fc7476d692b3792702ec83f97e518c62671a2"
+    }
+  ]
+}
